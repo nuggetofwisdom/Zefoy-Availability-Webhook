@@ -11,9 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 
-global TOKEN
-TOKEN = "OTU5MTc0NjYzNjI2NDUzMDEy.YkYDBA.hhn7-ok5Srj_kpYFluiY-K0hoAs"
-
 def open_webdriver():
     global opts
     global driver
