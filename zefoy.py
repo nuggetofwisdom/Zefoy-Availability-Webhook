@@ -1,3 +1,8 @@
+# Made by NuggetOfWisdom
+# Github: https://github.com/nuggetofwisdom
+# Website: https://mumford.tech/
+# Discord: NuggetOfWisdom#1411
+
 from twisted.internet import task, reactor
 from dhooks import Webhook
 import fade
