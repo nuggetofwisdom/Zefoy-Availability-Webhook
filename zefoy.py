@@ -127,7 +127,7 @@ def bot():
     secondsSinceEpoch = time.time()
     timeObj = time.localtime(secondsSinceEpoch)
 
-    hook = Webhook('https://discord.com/api/webhooks/958782740084445184/V2bkfIpTXN-iv7CH6rcERSQniqdu8TTKLw8CQLtewEdF0-rc5-nGCsqBbfNM3LPfg0fG')
+    hook = Webhook('')
 
     hook.send('**Date:** %d/%d/%d %d:%d:%d' % (
 timeObj.tm_mday, timeObj.tm_mon, timeObj.tm_year, timeObj.tm_hour, timeObj.tm_min, timeObj.tm_sec))
